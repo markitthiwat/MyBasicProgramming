@@ -36,9 +36,24 @@ namespace MyBasicProgramming
             Console.WriteLine("change integer: " + x + "+" + y + "=" + (x + y));
 
             /* Constant */
+            const float W = 3.14f; // constant must use Upper word for help to find
+            Console.WriteLine("Constant: " + W);
 
-            const float w = 3.14f;
-            Console.WriteLine("Constant: " + w);
+            /* format string */
+            int number = 1234567;
+            Console.WriteLine("Number Exponential: = {0:E}", number); //E or e = Exponential
+            Console.WriteLine("Number Floating Point: = {0:F}", number); //F or f = Floating Point
+            Console.WriteLine("Number Short number: = {0:G}", number); // G or g = Short number
+            Console.WriteLine("Number Comma Number : = {0:N}", number); // N or n = Comma Number like 1,000
+            Console.WriteLine("Number percentage: = {0:P}", number); //P or p = percentage
+            Console.WriteLine("Number Hexadecimal: = {0:X}", number); //X or x = Hexadecimal
+
+            /* Input */
+            Console.Write("Input = ");
+            int result = Console.Read(); // Read ASCII
+            Console.WriteLine("ASCII output: " + result);
+            string sresult = Console.ReadLine(); //Read string
+            Console.WriteLine("String Output: " + sresult);
 
 
             /* ###################################### */
