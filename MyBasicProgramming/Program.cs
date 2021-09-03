@@ -37,6 +37,9 @@ namespace MyBasicProgramming
 
             /* Constant */
 
+            const float w = 3.14f;
+            Console.WriteLine("Constant: " + w);
+
 
             /* ###################################### */
             Console.ReadLine(); //enter for close command
